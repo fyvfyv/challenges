@@ -1,0 +1,16 @@
+.book {
+  position: relative;
+  padding: $gutter-half;
+  background-color: $clr-beige-base;
+
+  @include screen(tablet) {
+    padding: $gutter-base;
+  }
+}
+
+.book img {
+  @include book-img();
+
+  width: 133 / 278 * 100%;
+  margin: 0 auto $gutter-half;
+}

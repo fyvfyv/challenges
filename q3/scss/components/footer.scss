@@ -1,0 +1,36 @@
+footer {
+  position: sticky;
+  background-color: $clr-graphite-base;
+
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+footer ul {
+  margin: 0;
+  padding: $gutter-half 0;
+  display: grid;
+  grid-template-columns: repeat(4, min-content);
+  align-items: center;
+  justify-content: center;
+  grid-gap: $gutter-base;
+
+  @include screen(tablet) {
+    grid-gap: 60px;
+  }
+}
+
+footer li a {
+  color: #fff;
+
+  text-decoration: none;
+  cursor: pointer;
+  border-bottom: 1px solid transparent;
+  transition-duration: $tr-dur-base;
+
+  &:hover,
+  &:focus {
+    border-bottom: 1px solid white;
+  }
+}

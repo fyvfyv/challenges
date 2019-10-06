@@ -1,0 +1,37 @@
+@mixin screen($size, $type: min) {
+  @if $size == "mobile" {
+    @content;
+  }
+
+  @else if $size == "tablet" {
+    @media screen and ($type + -width: $bp-tablet) {
+      @content;
+    }
+  }
+
+  @else if $size == "desktop" {
+    @media screen and ($type + -width: $bp-desktop) {
+      @content;
+    }
+  }
+}
+
+// Define default font size
+@function calculate-rem($size) {
+  $remSize: $size / $fz-base;
+
+  @return $remSize * 1rem;
+}
+
+@mixin font-size($size) {
+  font-size: calculate-rem($size);
+}
+
+@mixin book-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+
+  border-radius: 7px;
+  box-shadow: 0 0 3px 0 $clr-shadow-base;
+}

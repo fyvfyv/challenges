@@ -1,0 +1,15 @@
+.recommended {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  width: 115px;
+  padding: 7px 8px;
+
+  @include font-size($fz-small);
+  text-align: center;
+  color: #fff;
+  background-color: $clr-yellow-base;
+
+  border-bottom-left-radius: 5px;
+}

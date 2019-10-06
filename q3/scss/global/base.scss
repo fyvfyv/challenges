@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font: 400 #{$fz-base}/#{$lh-base} $font-family;
+  color: $clr-grey-base;
+
+  background-color: $clr-beige-base;
+
+  @include screen(tablet) {
+    font: 400 #{$fz-base}/#{$lh-base} $font-family;
+  }
+}

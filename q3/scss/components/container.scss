@@ -1,0 +1,11 @@
+.container {
+  width: 100%;
+  max-width: 1025px;
+
+  margin: 0 auto;
+  padding: 0 $gutter-half;
+
+  @include screen(tablet) {
+    padding: 0 $gutter-base;
+  }
+}

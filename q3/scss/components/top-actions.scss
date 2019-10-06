@@ -1,0 +1,14 @@
+.top-actions {
+  padding: 15px 0 20px;
+}
+
+.top-actions .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @include screen(tablet) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

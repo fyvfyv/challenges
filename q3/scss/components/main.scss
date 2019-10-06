@@ -1,0 +1,30 @@
+.main {
+  margin-bottom: $gutter-base;
+}
+
+.main .container {
+  padding: 0;
+  box-shadow: 0 0 10px $clr-shadow-base;
+
+  background-color: $clr-beige-base;
+  overflow: hidden;
+
+  @include screen(desktop) {
+    border-radius: 9px;
+  }
+}
+
+.main h1 {
+  margin: 0;
+  padding: $gutter-half;
+
+  @include font-size($fz-biggest);
+  font-weight: 400;
+  line-height: 1;
+
+  background-color: #fff;
+
+  @include screen(tablet) {
+    padding: $gutter-base;
+  }
+}

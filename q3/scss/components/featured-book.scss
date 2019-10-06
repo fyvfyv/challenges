@@ -1,0 +1,34 @@
+.featured-book {
+  position: relative;
+
+  padding: 40px $gutter-half;
+
+  @include screen(tablet) {
+    display: grid;
+    grid-template-columns: (265 / 965 * 100%) 1fr;
+    grid-gap: $gutter-column;
+
+    padding: $gutter-base;
+  }
+}
+
+.featured-book img {
+  @include book-img();
+
+  margin: 0 auto $gutter-half;
+
+  @include screen(tablet) {
+    margin-bottom: 0;
+  }
+}
+
+.featured-book .title {
+  @include font-size($fz-bigger);
+  font-weight: 700;
+}
+
+.featured-book .synopsis {
+  @include font-size($fz-base);
+
+  margin-top: 30px;
+}

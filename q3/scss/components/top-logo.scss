@@ -1,0 +1,21 @@
+.top-logo {
+  display: flex;
+
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+
+  margin-bottom: $gutter-half;
+  padding: 10px 20px;
+
+  @include font-size($fz-small);
+  line-height: 1;
+
+  background-color: $clr-grey-light;
+  border-radius: 4px;
+
+  @include screen(tablet) {
+    margin-bottom: 0;
+  }
+}

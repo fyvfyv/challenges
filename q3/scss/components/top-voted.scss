@@ -1,0 +1,17 @@
+.top-voted {
+  background-color: #fff;
+}
+
+.top-voted h2 {
+  margin: 0;
+  padding: 20px $gutter-half 10px;
+
+  @include font-size($fz-big);
+  line-height: 1.2;
+
+  background-color: #fff;
+
+  @include screen(tablet) {
+    padding: 40px $gutter-base 20px;
+  }
+}

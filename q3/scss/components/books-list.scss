@@ -1,0 +1,18 @@
+.books-list {
+  display: grid;
+  padding: 0 $gutter-half $gutter-half;
+
+  background-color: #fff;
+
+  @include screen(tablet) {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: $gutter-column;
+    justify-content: center;
+
+    padding: 0 $gutter-base $gutter-base;
+  }
+
+  @include screen(desktop) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

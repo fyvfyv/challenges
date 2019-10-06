@@ -1,0 +1,8 @@
+.synopsis {
+  margin-top: 20px;
+  font-size: $fz-small;
+
+  & p {
+    margin: 0 0 $gutter-half;
+  }
+}

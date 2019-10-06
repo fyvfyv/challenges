@@ -1,0 +1,46 @@
+.top-menu ul {
+  display: flex;
+  flex-direction: column;
+
+  margin: 0;
+  padding: 0;
+
+  @include screen(tablet) {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+
+.top-menu li {
+  display: block;
+  margin: 0 0 10px;
+
+  border-radius: 5px;
+
+  &.active {
+    color: #fff;
+    background-color: $clr-yellow-base;
+  }
+
+  &:not(.active):hover,
+  &:not(.active):focus {
+    color: #fff;
+    background-color: lighten($clr-yellow-base, 10);
+  }
+
+  @include screen(tablet) {
+    margin: 0 2px;
+  }
+}
+
+.top-menu li a {
+  display: block;
+  width: 100%;
+  padding: 10px 12px;
+
+  cursor: pointer;
+  text-align: center;
+
+  transition-duration: $tr-dur-base;
+}
