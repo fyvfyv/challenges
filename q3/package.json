@@ -1,0 +1,37 @@
+{
+  "name": "q3",
+  "version": "1.0.0",
+  "description": "Styling task for Reedsy",
+  "scripts": {
+    "stylelint": "stylelint \"scss/**/*.scss\" --syntax scss",
+    "build": "gulp build",
+    "start": "gulp serve",
+    "test": "npm run stylelint"
+  },
+  "author": "Oleg Petrov <fyvfyv@fyvfyv.com> (https://fyvfyv.com/)",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.6.4",
+    "browser-sync": "^2.26.7",
+    "css-mqpacker": "^7.0.0",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-csso": "^3.0.1",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sass-glob": "^1.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "normalize.css": "^8.0.1",
+    "standard": "^14.3.1",
+    "stylelint": "^11.0.0",
+    "stylelint-config-htmlacademy": "^0.1.4"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "> 1%",
+    "maintained node versions",
+    "not dead"
+  ]
+}

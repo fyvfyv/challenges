@@ -1,0 +1,10 @@
+{
+  "extends": "stylelint-config-htmlacademy",
+
+  "rules": {
+    "color-hex-length": "short",
+    "at-rule-no-unknown": null,
+    "declaration-no-important": true,
+    "indentation": [2, {"ignore": ["inside-parens"]}]
+  }
+}
