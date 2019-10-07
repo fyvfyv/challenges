@@ -1,5 +1,6 @@
 {
-  "name": "front",
+  "name": "q4_task",
+  "description": "Q4 task for Reedsy",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -7,10 +8,12 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit",
+    "test:unit-update": "vue-cli-service test:unit -u",
     "format": "prettier 'src/**/*.{ts,tsx}' --write",
     "format:staged": "pretty-quick --staged --write"
   },
   "dependencies": {
+    "axios": "^0.19.0",
     "core-js": "^2.6.5",
     "register-service-worker": "^1.6.2",
     "vue": "^2.6.10",
@@ -34,13 +37,14 @@
     "tslint-config-prettier": "^1.18.0",
     "tslint-config-standard": "^8.0.1",
     "typescript": "^3.4.3",
-    "vue-template-compiler": "^2.6.10"
+    "vue-template-compiler": "^2.6.10",
+    "stylelint": "^11.0.0",
+    "stylelint-config-htmlacademy": "^0.1.4"
   },
   "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
+    "> 1%",
+    "last 2 versions",
+    "not dead"
   ],
   "husky": {
     "hooks": {

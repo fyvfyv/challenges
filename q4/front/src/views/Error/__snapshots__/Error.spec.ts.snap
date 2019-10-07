@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Error renders correctly 1`] = `
+<article
+  class="content"
+>
+  <h1>
+    Not found 🙁
+  </h1>
+   
+  <router-link-stub
+    to="[object Object]"
+  >
+    Go to the list
+  </router-link-stub>
+</article>
+`;

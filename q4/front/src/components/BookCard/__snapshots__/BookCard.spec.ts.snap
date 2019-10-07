@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BookCard renders correctly 1`] = `
+<li
+  class="book"
+>
+  <header
+    class="book__headline"
+  >
+    <router-link-stub
+      class="book__link"
+      to="[object Object]"
+    >
+      <h2
+        class="book__title"
+      >
+        1. In Search of Lost Time
+      </h2>
+    </router-link-stub>
+     
+    <span
+      class="book__rating"
+    >
+      (9.9/10)
+    </span>
+  </header>
+   
+  <p
+    class="book__author"
+  >
+    Marcel Proust
+  </p>
+   
+  <p
+    class="book__description"
+  >
+    In Search of Lost Time, also translated as Remembrance of Things Past, novel in seven parts by Marcel Proust, published in French as À la recherche du temps perdu from 1913 to 1927. The novel is the s...
+  </p>
+   
+  <div
+    class="book__upvotes-row"
+  >
+    <button
+      class="book__upvote"
+      type="button"
+    >
+      
+      Upvote
+    
+    </button>
+     
+    <span>
+      Upvoted 1111 times
+    </span>
+  </div>
+   
+  <router-link-stub
+    class="book__image-link"
+    to="[object Object]"
+  >
+    <img
+      alt="In Search of Lost Time"
+      src="01.jpg"
+    />
+  </router-link-stub>
+</li>
+`;

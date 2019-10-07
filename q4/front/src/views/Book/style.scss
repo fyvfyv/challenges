@@ -1,0 +1,92 @@
+.book {
+  padding: 60px;
+  background-color: #fff;
+
+  text-align: left;
+}
+
+.book__headline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 40px;
+}
+
+.book__title {
+  margin: 0;
+
+  font-size: 1.5rem;
+  line-height: 1;
+
+  color: #a97721;
+  text-decoration: none;
+  transition-duration: 0.3s;
+
+  text-align: left;
+}
+
+.book__rating {
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.book__author {
+  display: block;
+  margin-top: 10px;
+  font-style: italic;
+
+  color: #363636;
+}
+
+.book__description {
+  font-size: 1rem;
+}
+
+.book__upvotes-row {
+  display: flex;
+  align-items: center;
+
+  & span {
+    margin-right: 30px;
+  }
+}
+
+.book__upvote {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 20px;
+
+  font-size: 1.3rem;
+  color: #fff;
+
+  background-color: #ddaa43;
+  border: 2px solid #ddaa43;
+  border-radius: 5px;
+
+  cursor: pointer;
+
+  &#{&}--checked {
+    background-color: #fff;
+    color: #ddaa43;
+  }
+}
+
+img {
+  display: block;
+  max-width: 50%;
+  height: auto;
+  margin: 0 auto 50px;
+
+  border-radius: 20px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+.book__subtitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+
+  margin-bottom: 30px;
+}

@@ -1,0 +1,21 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Helvetica Neuve', 'Arial', sans-serif;
+  font-size: 16px;
+  color: #2c3e50;
+
+  background-color: #faf9f3;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
