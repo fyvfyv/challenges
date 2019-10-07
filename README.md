@@ -18,7 +18,9 @@ Customers are able to choose template, financial pairs and other params for Face
 I've made frontend part of this project and backend service to proxy requests to [Alpha Vantage](https://www.alphavantage.co/). 
 
 ![fnt3](./images/fintech-tool-3.png)
+
 ![fnt1](./images/fintech-tool.png)
+
 ![fnt2](./images/fintech-tool-2.png)
 
 ## 2. General
@@ -49,6 +51,7 @@ if we work with a big amount of nodes.
 Also, `innerHTML` can't be used with users data. There are potentially security risks.  
 Otherwise, in some cases `innerHTML` can be shorter and works faster. But generally, `createElement` is much faster.  
 For example, it's a simple benchmark:  
+
 ![benchamerk](./images/benchmark.png)
   
 [https://jsbench.me/htk1c7megl/](https://jsbench.me/htk1c7megl/)  
