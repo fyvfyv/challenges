@@ -13,7 +13,7 @@ export default class BooksService {
   static getAllBooks(request) {
     let booksList = JSON.parse(_readFile());
     booksList.books.forEach(b => {
-      b.cover = `${ request.server.info.uri }/images/${ b.cover }`;
+      b.cover = `/images/${ b.cover }`;
     });
 
     return JSON.stringify(booksList);
