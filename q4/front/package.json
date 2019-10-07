@@ -31,15 +31,18 @@
     "@vue/cli-service": "^3.11.0",
     "@vue/test-utils": "1.0.0-beta.29",
     "babel-core": "7.0.0-bridge.0",
+    "husky": "^3.0.8",
+    "lint-staged": "^9.4.1",
     "node-sass": "^4.9.0",
+    "pretty-quick": "^1.11.1",
     "sass-loader": "^7.1.0",
+    "stylelint": "^11.0.0",
+    "stylelint-config-htmlacademy": "^0.1.4",
     "ts-jest": "^23.0.0",
     "tslint-config-prettier": "^1.18.0",
     "tslint-config-standard": "^8.0.1",
     "typescript": "^3.4.3",
-    "vue-template-compiler": "^2.6.10",
-    "stylelint": "^11.0.0",
-    "stylelint-config-htmlacademy": "^0.1.4"
+    "vue-template-compiler": "^2.6.10"
   },
   "browserslist": [
     "> 1%",

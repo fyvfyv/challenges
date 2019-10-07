@@ -2,13 +2,13 @@ import { mount } from '@vue/test-utils'
 import Component from './index'
 
 describe('SearchInput', () => {
-  test ('is a Vue instance', () => {
+  test('is a Vue instance', () => {
     const wrapper = mount(Component, {
       propsData: {
         value: ''
       }
     })
-    expect (wrapper.isVueInstance()).toBeTruthy()
+    expect(wrapper.isVueInstance()).toBeTruthy()
   })
 
   test('renders correctly', () => {

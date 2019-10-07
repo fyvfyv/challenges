@@ -16,7 +16,7 @@ export default class BookCard extends Vue {
   @Emit()
   private getShortDescription() {
     return this.book.synopsis.length > MAX_SYNOPSIS_LENGTH
-        ? `${this.book.synopsis.slice (0, MAX_SYNOPSIS_LENGTH)}...`
-        : this.book.synopsis
+      ? `${this.book.synopsis.slice(0, MAX_SYNOPSIS_LENGTH)}...`
+      : this.book.synopsis
   }
 }

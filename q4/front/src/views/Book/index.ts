@@ -12,7 +12,7 @@ export default class Book extends Vue {
   public getBook: ((slug: string) => IBook | undefined) | undefined
   private book: IBook | undefined = undefined
 
-  public created () {
+  public created() {
     this.book = this.getBook && this.getBook(this.$route.params.slug)
   }
 }
