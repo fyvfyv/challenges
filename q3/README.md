@@ -2,12 +2,12 @@
 
 Public url: [https://q3-reedsy.fyvfyv.com](https://q3-reedsy.fyvfyv.com)
 
-## Project setup
+### Project setup
 ```
 npm install
 ```
 
-## Compiles and hot-reloads for development
+### Compiles and hot-reloads for development
 ```
 npm run start
 ```

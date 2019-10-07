@@ -19,6 +19,7 @@
   padding: $gutter-half;
 
   font-family: "Verdana", "Arial", sans-serif;
+
   @include font-size($fz-biggest);
   font-weight: 400;
   line-height: 1;
