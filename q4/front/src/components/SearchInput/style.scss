@@ -2,7 +2,7 @@
   position: relative;
   display: flex;
   justify-content: center;
-  align-items: stretch;
+  align-items: center;
 
   margin: 0 auto;
   padding-bottom: 15px;
@@ -14,13 +14,6 @@ label {
 
   padding: 10px 15px;
   margin-bottom: 0;
-
-  border: 1px solid #363636;
-  border-bottom-left-radius: 10px;
-  border-top-left-radius: 10px;
-  border-right: none;
-
-  background-color: #fff;
 
   font-size: 1.2rem;
   line-height: 1;

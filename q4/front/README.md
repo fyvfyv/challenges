@@ -1,5 +1,7 @@
 # Q4 task for Reedsy
 
+Public url: [https://q4-reedsy.fyvfyv.com](https://q4-reedsy.fyvfyv.com)
+
 ## Project setup
 ```
 npm install
