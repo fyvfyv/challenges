@@ -18,8 +18,9 @@
   grid-area: headline;
   display: flex;
   align-items: flex-end;
+  flex-wrap: wrap;
 
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .book__link {
@@ -52,6 +53,7 @@
 .book__author {
   grid-area: author;
   font-style: italic;
+  margin: 0;
 }
 
 .book__description {
@@ -107,4 +109,9 @@
   &:focus img {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
   }
+}
+
+.book__stars {
+  margin-top: 5px;
+  width: 100%;
 }

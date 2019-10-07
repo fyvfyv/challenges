@@ -4,12 +4,17 @@
       <router-link class="book__link" :to="{ name: 'book', params: { slug: book.slug } }">
         <h2 class="book__title">{{ index + 1 }}. {{ book.title }}</h2>
       </router-link>
-      <span class="book__rating">({{ book.rating }}/10)</span>
+      <span class="book__rating">
+        ({{ book.rating }}/10)
+      </span>
+      <div class="book__stars">
+        <Star v-for="star in 10" :isFilled="star < Number(book.rating)" :key="star" />
+      </div>
     </header>
     <p class="book__author">{{ book.author }}</p>
     <p class="book__description">{{ getShortDescription() }}</p>
     <div class="book__upvotes-row">
-      <button v-bind:class="{ book__upvote: true, 'book__upvote--checked': book.upvoted }" type="button">
+      <button :class="{ book__upvote: true, 'book__upvote--checked': book.upvoted }" type="button">
         {{ book.upvoted ? 'Upvoted' : 'Upvote' }}
       </button>
       <span>Upvoted {{ book.upvotes }} times</span>
