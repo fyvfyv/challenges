@@ -4,8 +4,8 @@
   "description": "Styling task for Reedsy",
   "scripts": {
     "stylelint": "stylelint \"scss/**/*.scss\" --syntax scss",
-    "build": "node ./node_modules/gulp/bin/gulp.js build",
-    "start": "node ./node_modules/gulp/bin/gulp.js serve",
+    "build": "gulp build",
+    "start": "gulp serve",
     "test": "npm run stylelint"
   },
   "author": "Oleg Petrov <fyvfyv@fyvfyv.com> (https://fyvfyv.com/)",
