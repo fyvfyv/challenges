@@ -8,7 +8,7 @@
         ({{ book.rating }}/10)
       </span>
       <div class="book__stars">
-        <Star v-for="star in 10" :isFilled="star < Number(book.rating)" :key="star" />
+        <Star v-for="star in 10" :isFilled="star <= Math.floor(book.rating)" :key="star" />
       </div>
     </header>
     <p class="book__author">{{ book.author }}</p>
