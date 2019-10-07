@@ -44,7 +44,7 @@ Also, as a tutor and code reviewer I really like `contenteditable` tag
 
 Firstly, value of `innerHTML` is `DOMString`, whereas value of `createElement` is an `Element`.   
 It means, that `createElement` provides more powerful tools to work with nodes. 
-We can save events, links to `Element`, when create it. It could be simpler, 
+We can save events, links to `Element`, when create it. It could be useful, 
 if we work with a big amount of nodes.    
 Also, `innerHTML` can't be used with users data. There are potentially security risks.  
 Otherwise, in some cases `innerHTML` can be shorter and works faster. But generally, `createElement` is much faster.  
