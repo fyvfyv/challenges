@@ -48,7 +48,7 @@ We can save events, links to `Element`, when create it. It could be simpler,
 if we work with a big amount of nodes.    
 Also, `innerHTML` can't be used with users data. There are potentially security risks.  
 Otherwise, in some cases `innerHTML` can be shorter and works faster. But generally, `createElement` is much faster.  
-For example, it's a simple benchmark:
+For example, it's a simple benchmark:  
 ![benchamerk](./images/benchmark.png)
   
 [https://jsbench.me/htk1c7megl/](https://jsbench.me/htk1c7megl/)  
@@ -94,5 +94,5 @@ Public url: [https://q3-reedsy.fyvfyv.com](https://q3-reedsy.fyvfyv.com)
 
 Public url: [https://q4-reedsy.fyvfyv.com](https://q4-reedsy.fyvfyv.com)
 
-Vue.js app: [README.md](https://github.com/fyvfyv/challenges/tree/master/q4/front/README.md)
-Server: [README.md](https://github.com/fyvfyv/challenges/tree/master/q4/front/README.md)
+Vue.js app: [README.md](https://github.com/fyvfyv/challenges/tree/master/q4/front/README.md)  
+Server: [README.md](https://github.com/fyvfyv/challenges/tree/master/q4/server/README.md)
