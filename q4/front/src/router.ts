@@ -65,5 +65,8 @@ export default new Router({
       name: 'error',
       component: Error
     }
-  ]
+  ],
+  scrollBehavior() {
+    return { x: 0, y: 0 }
+  }
 })
