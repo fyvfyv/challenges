@@ -28,7 +28,7 @@ export default new Router({
             }
           })
           .catch(() => {
-            next({ name: 'error' })
+            next({ path: '/error' })
             return Promise.reject()
           })
       }
@@ -52,7 +52,7 @@ export default new Router({
               }
             })
             .catch(() => {
-              next({ name: 'error' })
+              next({ path: '/error' })
               return Promise.reject()
             })
         } else {
