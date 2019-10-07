@@ -1,10 +1,11 @@
 // Fonts
-$font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
-$fz-biggest: 36px;
-$fz-bigger: 24px;
-$fz-big: 21px;
-$fz-base: 14px;
-$fz-small: 12px;
+$font-family: "Helvetica Neue", "Arial", sans-serif;
+$fz-biggest: 38.25px;
+$fz-bigger: 34.5px;
+$fz-big: 31.5px;
+$fz-base: 15px;
+$fz-little: 14.25px;
+$fz-small: 13.5px;
 $lh-base: 1.4;
 
 // Breakpoints
@@ -24,6 +25,10 @@ $clr-shadow-base: rgba(0, 0, 0, 0.3);
 // Other
 $gutter-column: 20px;
 $gutter-half: 15px;
+$gutter-third: 10px;
 $gutter-base: 30px;
+
+$brad-base: 10px;
+$brad-half: 5px;
 
 $tr-dur-base: 0.3s;

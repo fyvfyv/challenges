@@ -7,13 +7,15 @@
   width: 200px;
 
   margin-bottom: $gutter-half;
-  padding: 10px 20px;
+  padding: 8px $gutter-column;
 
-  @include font-size($fz-small);
+  cursor: pointer;
+
+  @include font-size($fz-base);
   line-height: 1;
 
   background-color: $clr-grey-light;
-  border-radius: 4px;
+  border-radius: $brad-half;
 
   @include screen(tablet) {
     margin-bottom: 0;

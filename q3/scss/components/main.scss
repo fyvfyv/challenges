@@ -4,13 +4,13 @@
 
 .main .container {
   padding: 0;
-  box-shadow: 0 0 10px $clr-shadow-base;
+  box-shadow: 0 0 $gutter-third $clr-shadow-base;
 
   background-color: $clr-beige-base;
   overflow: hidden;
 
   @include screen(desktop) {
-    border-radius: 9px;
+    border-radius: $brad-base;
   }
 }
 
@@ -18,13 +18,15 @@
   margin: 0;
   padding: $gutter-half;
 
+  font-family: "Verdana", "Arial", sans-serif;
   @include font-size($fz-biggest);
   font-weight: 400;
   line-height: 1;
+  letter-spacing: 0.8px;
 
   background-color: #fff;
 
   @include screen(tablet) {
-    padding: $gutter-base;
+    padding: $gutter-base $gutter-base 35px;
   }
 }

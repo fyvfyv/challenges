@@ -1,8 +1,14 @@
 .synopsis {
-  margin-top: 20px;
+  margin-top: 17px;
   font-size: $fz-small;
+  letter-spacing: -0.1px;
 
   & p {
-    margin: 0 0 $gutter-half;
+    margin: 0 0 $gutter-third;
+    letter-spacing: 0.4px;
+
+    &:last-child {
+      margin: 0;
+    }
   }
 }

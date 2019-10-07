@@ -4,14 +4,15 @@
 
 .top-voted h2 {
   margin: 0;
-  padding: 20px $gutter-half 10px;
+  padding: $gutter-column $gutter-half $gutter-third;
 
   @include font-size($fz-big);
-  line-height: 1.2;
+  line-height: 1;
+  letter-spacing: 1px;
 
   background-color: #fff;
 
   @include screen(tablet) {
-    padding: 40px $gutter-base 20px;
+    padding: 45px $gutter-base 24px;
   }
 }

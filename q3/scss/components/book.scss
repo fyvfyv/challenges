@@ -1,16 +1,30 @@
 .book {
   position: relative;
-  padding: $gutter-half;
+  padding: 16px $gutter-half;
   background-color: $clr-beige-base;
 
-  @include screen(tablet) {
-    padding: $gutter-base;
-  }
+  border-radius: $brad-base;
 }
 
 .book img {
   @include book-img();
 
-  width: 133 / 278 * 100%;
-  margin: 0 auto $gutter-half;
+  width: 133 / 276 * 100%;
+  margin: 0 auto 16px;
+}
+
+.book .title {
+  @include font-size($fz-little);
+  line-height: 1.15;
+  letter-spacing: 1.2px;
+
+  margin: 0 0 3px;
+}
+
+.book .author {
+  letter-spacing: -0.6px;
+}
+
+.book .synopsis p {
+  letter-spacing: 0.2px;
 }
