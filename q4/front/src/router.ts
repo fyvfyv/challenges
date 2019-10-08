@@ -66,7 +66,7 @@ export default new Router({
       component: Error
     }
   ],
-  scrollBehavior() {
-    return { x: 0, y: 0 }
+  scrollBehavior(to, from, savedPosition) {
+    return savedPosition || { x: 0, y: 0 }
   }
 })
